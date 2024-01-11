@@ -1,0 +1,43 @@
+#gameboard {
+    width: 840px;
+    height: 528px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boardTail {
+    width: 84px;
+    height: 66px;
+    border-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.piece {
+    position: relative;
+    z-index: 10;
+}
+
+.boardTail svg {
+    width: 74px;
+    height: 56px;
+    margin: 5px;
+    position: relative;
+}
+
+.red-fish {
+    fill: #dd2443;
+}
+
+.blue-fish {
+    fill: blue;
+}
+
+.green-fish {
+    fill: green;
+}
+
+.yellow-fish {
+    fill: yellow;
+}
