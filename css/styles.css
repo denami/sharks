@@ -2,16 +2,22 @@
     width: 840px;
     height: 528px;
     background-color: aqua;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
 }
 
 .boardTail {
-    width: 84px;
-    height: 66px;
-    border-color: black;
+    width: 82px;
+    height: 64px;
     margin: 0px;
     padding: 0px;
+    border: 1px dotted aqua;
+}
+.boardTail:hover {
+    border-color: blue;
 }
 
 .piece {
